@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { 
   Shield, 
@@ -19,8 +18,8 @@ import {
   Users,
   Zap
 } from 'lucide-react';
-import BlueprintBackground from './components/BlueprintBackground';
-import MiloMeter from './components/MiloMeter';
+import BlueprintBackground from './components/BlueprintBackground.tsx';
+import MiloMeter from './components/MiloMeter.tsx';
 
 const ICONIC_BUILDINGS = {
   stage1: [
